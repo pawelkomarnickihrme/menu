@@ -8,8 +8,6 @@ import { SignUpUserSteps } from "@/components/tutorial/sign-up-user-steps";
 import { hasEnvVars } from "@/lib/utils";
 import Link from "next/link";
 import TailwindAdvancedEditor from "../components/tailwind/advanced-editor";
-import { Dialog, DialogContent } from "@/components/tailwind/ui/dialog";
-import { ScrollArea } from "../components/tailwind/ui/scroll-area";
 
 export default function Home() {
   return (
